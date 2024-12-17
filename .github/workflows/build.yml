@@ -111,7 +111,7 @@ jobs:
         cd tests
         $XVFB bash run-tests.sh
         - uses: actions/upload-artifact@v3
-      with:
+        with:
         name: aseprite
         path: |
           F:/a/aseprite/aseprite/build/bin/data
